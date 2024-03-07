@@ -1,0 +1,20 @@
+.advertTop {
+  padding: 15px 15px 8px 15px;
+  background-color: rgb(232, 176, 176);
+
+  .advertTopContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .left {
+      a {
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: red;
+      }
+    }
+  }
+}
