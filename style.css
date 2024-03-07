@@ -10,4 +10,6 @@
 
 body {
   background-image: url("./src/assets/bg-pattern.png");
+  background-size: auto;
+  background-repeat: repeat;
 }
