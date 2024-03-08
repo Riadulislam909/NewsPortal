@@ -1,0 +1,47 @@
+.navbarBottom {
+  background: rgb(215, 82, 82);
+  color: white;
+  height: 38px;
+  .navbarBottomWrapper {
+    display: flex;
+    align-items: center;
+    padding: 3px 3px;
+    padding-left: 10px;
+    padding-right: 20px;
+    justify-content: space-between;
+    .item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      span {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .droprDownMenu1 {
+      position: absolute;
+      top: 40px;
+      width: 160px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      background-color: whitesmoke;
+      color: black;
+      border-bottom: 2px solid red;
+      box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+      left: 1px;
+      z-index: 1;
+      span a {
+        display: flex;
+        align-items: center;
+        padding-bottom: 18px;
+        font-size: 14px;
+      }
+      a:hover {
+        color: rgb(215, 82, 82);
+        transition: 0.2s;
+      }
+    }
+  }
+}
