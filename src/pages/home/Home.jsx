@@ -1,6 +1,7 @@
 import NavbarTop from "../../components/navbar/NavbarTop";
 import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
 import AdvertTop from "./../../components/advertTop/AdvertTop";
+import BreakingNews from "./../../components/breakingNews/BreakingNews";
 import "./home.scss";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <NavbarTop />
         <AdvertTop />
         <NavbarBottom />
+        <BreakingNews />
       </div>
     </div>
   );
