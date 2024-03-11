@@ -1,4 +1,5 @@
 import MainBody from "../../components/mainBody/MainBody";
+import MainBodyTwo from "../../components/mainBodyTwo/MainBodyTwo";
 import NavbarTop from "../../components/navbar/NavbarTop";
 import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
 import AdvertTop from "./../../components/advertTop/AdvertTop";
@@ -17,6 +18,7 @@ const Home = () => {
           <BreakingNews />
           <MainContent />
           <MainBody />
+          <MainBodyTwo />
         </div>
       </div>
     </>
