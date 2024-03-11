@@ -1,3 +1,4 @@
+import MainBody from "../../components/mainBody/MainBody";
 import NavbarTop from "../../components/navbar/NavbarTop";
 import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
 import AdvertTop from "./../../components/advertTop/AdvertTop";
@@ -15,6 +16,7 @@ const Home = () => {
           <NavbarBottom />
           <BreakingNews />
           <MainContent />
+          <MainBody />
         </div>
       </div>
     </>

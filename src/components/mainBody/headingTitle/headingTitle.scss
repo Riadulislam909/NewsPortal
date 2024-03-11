@@ -1,0 +1,28 @@
+.headingTitle {
+  border-top: 2px solid red;
+  .heading {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    justify-content: space-between;
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      color: red;
+      text-transform: uppercase;
+    }
+    .icon {
+      display: flex;
+      align-items: center;
+      color: gray;
+      gap: 2px;
+
+      .left:hover {
+        color: red;
+      }
+      .right:hover {
+        color: red;
+      }
+    }
+  }
+}
