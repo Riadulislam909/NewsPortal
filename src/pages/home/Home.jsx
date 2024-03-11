@@ -2,6 +2,7 @@ import MainBody from "../../components/mainBody/MainBody";
 import MainBodyTwo from "../../components/mainBodyTwo/MainBodyTwo";
 import NavbarTop from "../../components/navbar/NavbarTop";
 import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
+import AudioVideo from "./../../components/AudioVideo/AudioVideo";
 import AdvertTop from "./../../components/advertTop/AdvertTop";
 import BreakingNews from "./../../components/breakingNews/BreakingNews";
 import MainContent from "./../../components/mainContent/MainContent";
@@ -19,6 +20,7 @@ const Home = () => {
           <MainContent />
           <MainBody />
           <MainBodyTwo />
+          <AudioVideo />
         </div>
       </div>
     </>

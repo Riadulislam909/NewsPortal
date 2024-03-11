@@ -1,0 +1,15 @@
+.audioVideo {
+  padding: 30px 40px 20px 40px;
+  background-color: rgb(231, 107, 107);
+  display: flex;
+
+  .audioVideoWrapper {
+    border-top: 2px solid white;
+    .body {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
