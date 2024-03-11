@@ -5,6 +5,7 @@ import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
 import AudioVideo from "./../../components/AudioVideo/AudioVideo";
 import AdvertTop from "./../../components/advertTop/AdvertTop";
 import BreakingNews from "./../../components/breakingNews/BreakingNews";
+import Footer from "./../../components/footer/Footer";
 import MainContent from "./../../components/mainContent/MainContent";
 import "./home.scss";
 
@@ -21,6 +22,7 @@ const Home = () => {
           <MainBody />
           <MainBodyTwo />
           <AudioVideo />
+          <Footer />
         </div>
       </div>
     </>
