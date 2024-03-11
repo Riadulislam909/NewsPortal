@@ -1,4 +1,4 @@
-import { WorldNews } from "../../category.js";
+import { Technology, WorldNews } from "../../category.js";
 import "./mainBody.scss";
 import StyleOne from "./styleOne/StyleOne";
 import StyleTwo from "./styleTwo/StyleTwo";
@@ -12,7 +12,7 @@ const MainBody = () => {
             <StyleOne WorldNews={WorldNews} />
           </div>
           <div className="item">
-            <StyleTwo />
+            <StyleTwo Technology={Technology} />
           </div>
           <div className="item">
             <Widget />
